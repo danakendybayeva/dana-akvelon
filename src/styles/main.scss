@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./abstracts/colors";
+@import "./abstracts/fonts";
+@import "./abstracts/mixins";
+@import "./abstracts/reset";
+@import "./abstracts/variables";
+
+body {
+  font-family: $open-sans;
+}
+
+.rounded-circle {
+  cursor: pointer;
+}
+.rounded-circle:hover {
+  box-shadow: $box-shadow;
+}
