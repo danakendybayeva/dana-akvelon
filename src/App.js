@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        {/* <Header /> */}
         <Routes>
           <Route path="/login" element={<Auth />} />
           <Route path="/register" element={<Register />} />

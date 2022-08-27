@@ -3,7 +3,8 @@
 ## About the Project
 
 Test Task for position React intern in Akvelon
-[Project Demo]()
+
+#### [Project Demo](https://danakendybayeva-akvelon.netlify.app/)
 
 ### Build with
 

@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import Header from "../components/Header";
 import { useNavigate } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Home() {
   const usersURL = "https://reqres.in/api/users/";
@@ -26,12 +26,9 @@ function Home() {
     <div>
       <Header />
       <Container>
-        <Row>
-          <Col>
-            <h2 className="text-center">List of users</h2>
-          </Col>
-        </Row>
-        <Row className="d-flex justify-content-md-center flex-wrap">
+        <h2 className="text-center">List of users</h2>
+
+        <div className="d-flex flex-wrap justify-content-md-center ">
           {users.length &&
             users.map((user) => {
               return (
@@ -46,7 +43,7 @@ function Home() {
                 </div>
               );
             })}
-        </Row>
+        </div>
       </Container>
     </div>
   );
